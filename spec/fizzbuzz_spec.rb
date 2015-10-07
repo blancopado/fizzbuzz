@@ -8,5 +8,8 @@ describe 'fizzbuzz' do
  end
  it 'returns "fizz" when passes any number multiple of 3' do
    expect(fizzbuzz(18)).to eq 'fizz'
- end  
+ end
+ it 'returns "buzz" when passes any number multiple of 5' do
+   expect(fizzbuzz(20)).to eq 'buzz'
+ end
 end
