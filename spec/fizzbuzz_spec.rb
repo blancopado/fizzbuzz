@@ -17,5 +17,11 @@ describe 'fizzbuzz' do
  end
   it 'returns the number itself' do
    expect(fizzbuzz(4)).to eq 4
+  end
+  it 'returns the number itself' do
+   expect(fizzbuzz(22)).to eq 22
+  end
+  it 'returns the number itself' do
+   expect(fizzbuzz(7)).to eq 7
+  end
 end
-end 
